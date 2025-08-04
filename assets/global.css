@@ -22,3 +22,7 @@ html {
   font-family: var(--font-family);
   background-color: var(--background-primary);
 }
+
+.hidden {
+  display: none;
+}
