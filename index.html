@@ -31,35 +31,46 @@
           <h1>Compras da semana</h1>
         </div>
         <div class="main-input">
-          <input type="text" placeholder="Adicione um novo produto" />
-          <button>Adicionar Item</button>
+          <input
+            class="main-input-text"
+            type="text"
+            placeholder="Adicione um novo produto"
+          />
+          <button class="main-input-button">Adicionar Item</button>
         </div>
         <div class="main-list">
-          <div class="main-list item">
+          <div class="main-list-item">
             <label>
               <input type="checkbox" />
               <span>Pão de forma</span>
             </label>
-            <button class="delete-btn" aria-label="Deletar Pão de forma">🗑️</button>
+
+            <button class="delete-btn" aria-label="Deletar Pão de forma">
+              🗑️
+            </button>
           </div>
 
-          <div class="main-list item">
+          <div class="main-list-item">
             <label>
               <input type="checkbox" />
               <span>Café preto</span>
             </label>
-            <button class="delete-btn" aria-label="Deletar Café preto">🗑️</button>
+            <button class="delete-btn" aria-label="Deletar Café preto">
+              🗑️
+            </button>
           </div>
 
-          <div class="main-list item">
+          <div class="main-list-item">
             <label>
               <input type="checkbox" />
               <span>Suco de laranja</span>
             </label>
-            <button class="delete-btn" aria-label="Deletar Suco de laranja">🗑️</button>
+            <button class="delete-btn" aria-label="Deletar Suco de laranja">
+              🗑️
+            </button>
           </div>
 
-          <div class="main-list item">
+          <div class="main-list-item">
             <label>
               <input type="checkbox" />
               <span>Bolacha</span>
@@ -73,8 +84,10 @@
     <footer>
       <div class="footer-container">
         <div class="footer-alert">
-          <img src="images/alert.svg" alt="alert" />
-          <span>O item foi removido da lista</span>
+          <span>
+            <img src="images/alert.svg" alt="alert" />
+            O item foi removido da lista
+          </span>
           <button class="close-btn" aria-label="Fechar notificação">
             <img src="images/close.svg" alt="" />
           </button>

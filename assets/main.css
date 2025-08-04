@@ -1,16 +1,26 @@
 .main-container {
   display: flex;
-  align-items: center;
-  padding-top: 62px;
-  justify-content: center;
   flex-direction: column;
+  padding-top: 62px;
+  width: 627px; /* Mesma largura dos itens da lista */
+  margin: 0 auto;
 }
 
 .main-header {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  justify-content: baseline;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.main-header a {
+  color: var(--color-brand);
+  text-decoration: none;
+  font: var(--link);
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .main-input {
@@ -18,4 +28,37 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 40px;
+}
+
+.main-input-text {
+  padding: 13px;
+  border-radius: 10px;
+  width: 451px;
+  border: 1px solid var(--border-primary);
+}
+
+.main-input-button {
+  background-color: var(--color-brand);
+  color: var(--always-white);
+  border-radius: 10px;
+  padding: 13px;
+  width: 160px;
+  height: 44px;
+  border: none;
+}
+
+.main-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: var(--background-secondary);
+  border-radius: 12px;
+  width: 627px;
+  margin-top: 15px;
+}
+
+.main-list {
+  margin-bottom: 36px;
 }
