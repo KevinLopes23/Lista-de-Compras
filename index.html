@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quicklist - Lista de Compras</title>
     <link rel="stylesheet" href="/assets/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,27 +36,35 @@
         </div>
         <div class="main-list">
           <div class="main-list item">
-            <input type="checkbox" />
-            <span>Pão de forma</span>
-            <span>🗑️</span>
+            <label>
+              <input type="checkbox" />
+              <span>Pão de forma</span>
+            </label>
+            <button class="delete-btn" aria-label="Deletar Pão de forma">🗑️</button>
           </div>
 
           <div class="main-list item">
-            <input type="checkbox" />
-            <span>Café preto</span>
-            <span>🗑️</span>
+            <label>
+              <input type="checkbox" />
+              <span>Café preto</span>
+            </label>
+            <button class="delete-btn" aria-label="Deletar Café preto">🗑️</button>
           </div>
 
           <div class="main-list item">
-            <input type="checkbox" />
-            <span>Suco de laranja</span>
-            <span>🗑️</span>
+            <label>
+              <input type="checkbox" />
+              <span>Suco de laranja</span>
+            </label>
+            <button class="delete-btn" aria-label="Deletar Suco de laranja">🗑️</button>
           </div>
 
           <div class="main-list item">
-            <input type="checkbox" />
-            <span>Bolacha</span>
-            <span>🗑️</span>
+            <label>
+              <input type="checkbox" />
+              <span>Bolacha</span>
+            </label>
+            <button class="delete-btn" aria-label="Deletar Bolacha">🗑️</button>
           </div>
         </div>
       </div>
@@ -67,7 +75,9 @@
         <div class="footer-alert">
           <img src="images/alert.svg" alt="alert" />
           <span>O item foi removido da lista</span>
-          <img src="images/close.svg" alt="close" />
+          <button class="close-btn" aria-label="Fechar notificação">
+            <img src="images/close.svg" alt="" />
+          </button>
         </div>
       </div>
     </footer>
