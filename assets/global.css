@@ -17,3 +17,8 @@
   --paragraph: 16px 20px medium;
   --link: 14px 16px medium;
 }
+
+html {
+  font-family: var(--font-family);
+  background-color: var(--background-primary);
+}
