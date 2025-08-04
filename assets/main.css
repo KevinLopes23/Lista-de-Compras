@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 62px;
-  width: 627px; /* Mesma largura dos itens da lista */
+  width: 651px; /* Largura correta */
   margin: 0 auto;
 }
 
@@ -61,4 +61,31 @@
 
 .main-list {
   margin-bottom: 36px;
+}
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  .main-container {
+    width: calc(100% - 32px);
+    margin: 0 16px;
+    padding: 0;
+  }
+
+  .main-input {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .main-input-text {
+    width: 100%;
+  }
+
+  .main-input-button {
+    width: 100%;
+  }
+
+  .main-list-item {
+    width: 100%;
+  }
 }
